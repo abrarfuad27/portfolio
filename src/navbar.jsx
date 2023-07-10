@@ -1,12 +1,39 @@
 import React from "react";
-import './styles.css'
+import { useEffect } from "react";
+import "./styles.css";
 
-export default function NavBar(){
-    return (
-        <nav className="navbar">
-            <ul>
-                <li>Resume</li>
-            </ul>
-        </nav>
-    )
+export default function NavBar() {
+  const handleContactClick = (e) => {
+    e.preventDefault();
+    const profilesSection = document.getElementById("profiles");
+    profilesSection.scrollIntoView({ behavior: "smooth" });
+
+    const profiles = document.querySelectorAll(".profile");
+    profiles.forEach((profile) => {
+      profile.classList.add("highlight");
+      setTimeout(() => {
+        profile.classList.remove("highlight");
+      }, 2000); // Adjust the duration for how long the highlighting should last (in milliseconds)
+    });
+  };
+
+  return (
+    <nav className="navbar">
+      <ul className="nav-items">
+        <li className="nav-item">
+          <a href="#" onClick={handleContactClick}>
+            Contact
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="https://drive.google.com/file/d/1A9326OHWoZ4K0A2Ko1TNvF0Uxu-qEG2D/view?usp=sharing"
+            target="_blank"
+          >
+            Resume
+          </a>
+        </li>
+      </ul>
+    </nav>
+  );
 }
