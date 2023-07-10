@@ -5,6 +5,8 @@
 }
 
 body {
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   background: linear-gradient(
@@ -53,7 +55,7 @@ body {
 }
 .main-container {
   width: 1000px;
-  height: 600px;
+  height: 1000px;
   color: white;
   padding: 50px;
   border: 2px;
@@ -97,4 +99,51 @@ body {
   border-color: #fff;
   padding: 10px;
   border-radius: 50%;
+}
+
+.projects-label {
+  font-weight: 800;
+  margin-top: 40px;
+}
+
+.project-container {
+  height: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-anchor {
+  text-decoration: none;
+  color: white;
+}
+.single-project {
+  background-color: #2b2b2b;
+  height: 500px;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid white;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.image {
+  height: 40%;
+  width: 100%;
+}
+
+.writings {
+  padding: 20px;
+  margin-top: 10px;
+}
+.title {
+  margin-bottom: 20px;
+}
+
+.description {
+  opacity: 0.9;
+}
+
+.single-project:hover {
+  background-color: #3f3f3f;
+  transition: 0.5s;
 }
