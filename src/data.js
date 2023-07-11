@@ -9,7 +9,8 @@ export default [
   {
     image: "assets/pong.png",
     title: "Pong",
-    description: "Pong written in Python! The game features smooth movement, collision detection, and an interactive interface. Players can compete against each other or play against a computer-controlled opponent. Pong provides an entertaining and engaging experience that tests players' reflexes and strategic thinking.",
+    description:
+      "Pong written in Python! The game features smooth movement, collision detection, and an interactive interface. Players can compete against each other or play against a computer-controlled opponent. Pong provides an entertaining and engaging experience that tests players' reflexes and strategic thinking.",
     url: "https://py2.codeskulptor.org/#user49_FClmURzpfg_12.py",
   },
   {
@@ -17,6 +18,6 @@ export default [
     title: "Tenzies",
     description:
       "A number generator game in React.js. It has a built-in highscore system along with a timer. Play with friends to see who gets luckier",
-    url: "https://github.com/abrarfuad27/tenzies",
+    url: "https://tenzies-rho.vercel.app/",
   },
 ];
