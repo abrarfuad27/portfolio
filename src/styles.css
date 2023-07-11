@@ -117,10 +117,10 @@ body {
 
 .project-anchor {
   text-decoration: none;
-  color: white;
+  color:#8e25cc;
 }
 .single-project {
-  background-color: #6b1f92;
+  background-color:#2b2b2b;
   height: 500px;
   width: 350px;
   border-radius: 10px;
@@ -151,6 +151,7 @@ body {
 .single-project:hover {
   background-color: #5d2175;
   transition: 0.5s;
+  color: white;
 }
 
 .footer {

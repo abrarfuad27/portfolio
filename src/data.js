@@ -17,7 +17,7 @@ export default [
     image: "assets/tenzies.png",
     title: "Tenzies",
     description:
-      "A number generator game in React.js. It has a built-in highscore system along with a timer. Play with friends to see who gets luckier",
+      "A number generator game in React.js. It has a built-in highscore system along with a timer. Play with friends to see who gets luckier!",
     url: "https://tenzies-rho.vercel.app/",
   },
 ];
