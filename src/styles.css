@@ -117,7 +117,7 @@ body {
 
 .project-anchor {
   text-decoration: none;
-  color:#8e25cc;
+  color:white;
 }
 .single-project {
   background-color:#2b2b2b;
@@ -149,9 +149,8 @@ body {
 }
 
 .single-project:hover {
-  background-color: #5d2175;
+  background-color: #240a2d;
   transition: 0.5s;
-  color: white;
 }
 
 .footer {
