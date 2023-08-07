@@ -27,7 +27,7 @@ export default function NavBar() {
         </li>
         <li className="nav-item">
           <a
-            href="https://drive.google.com/file/d/1A9326OHWoZ4K0A2Ko1TNvF0Uxu-qEG2D/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Wyj68SvrTm6qZYwsSs8f050n_poOGgpw/view?usp=sharing"
             target="_blank"
           >
             Resume
