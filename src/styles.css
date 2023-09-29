@@ -18,21 +18,23 @@ body {
 }
 .navbar {
   background-color: #2b2b2b;
-  height: 50px;
-  border: 2px;
-  border: 2px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  height: 3.2rem;
+  border: 0.2rem;
+  border: 0.2rem;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
 }
 .nav-items {
   display: flex;
   justify-content: flex-end;
   list-style: none;
+  margin-right: 2rem;
+  gap: 2.2rem;
+
 }
 .nav-item {
-  margin-right: 50px;
   font-weight: 400;
   font-size: large;
-  margin-top: 10px;
+  margin-top: 0.7rem;
 }
 
 .nav-item a {
