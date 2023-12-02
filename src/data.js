@@ -3,7 +3,7 @@ export default [
     image: "assets/pomo.png",
     title: "Pomodragon",
     description:
-      " Fast and Responsive Pomodoro Timer! It comes with a personalised activity log that spans the last 30 days to give you insights into your productivity patterns. A full stack application with the help of MongoDB,Express,React,Node along with libraries such as Chart.js, react-circle-timer, and JWT for authentication.",
+      " Fast and Responsive Pomodoro Timer! It comes with a personalised activity log that spans the last 30 days to give you insights into your productivity patterns.",
     url: "https://pomodragon.vercel.app/",
   },
   {

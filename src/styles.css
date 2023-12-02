@@ -122,6 +122,9 @@ body {
   color:white;
 }
 .single-project {
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Space Mono", monospace;
+  font-size: 0.7rem;
   background-color:#2b2b2b;
   height: 500px;
   width: 350px;
