@@ -44,4 +44,8 @@ export default [
     name: "Flask",
     image: "assets/techlogo/flask.png",
   },
+  {
+    name: "Ruby",
+    image: "assets/techlogo/ruby.png",
+  }
 ];
