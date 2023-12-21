@@ -8,10 +8,15 @@ import Header from "./header";
 import Profiles from "./profiles";
 import data from "./data";
 import Project from "./project";
+import techData from "./tech";
+import Tech from "./technology";
 
 function App() {
   const projectArray = data.map((project, index) => {
     return <Project key={index} project={project} />;
+  });
+  const techArray = techData.map((tech, index) => {
+    return <Tech key={index} tech={tech} />;
   });
   return (
     <div>
@@ -23,8 +28,10 @@ function App() {
         <div className="main-container">
           <Header />
           <Profiles />
-          <h2 className="projects-label">Projects</h2>
+          <h2 className="projects-label">Projects 🖥️</h2>
           <div className="project-container">{projectArray}</div>
+          <h2 className="tech-label">Technology 🛠️</h2>
+          <div className="tech-container">{techArray}</div>
         </div>
       </div>
       <footer className="footer">© 2023 Abrar Fuad. All rights reserved</footer>

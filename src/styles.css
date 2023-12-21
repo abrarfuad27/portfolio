@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto Condensed", sans-serif;
   margin: 0;
@@ -15,6 +19,10 @@ body {
     #a262d8 50%,
     #8e25cc 90%
   );
+  background-image: url("C:\\Users\\user\\portfolio\\public\\assets\\background.jpg"); /* Replace 'path-to-your-image.jpg' with the actual path to your image file */
+  background-size: cover; /* This property ensures the image covers the entire viewport */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Keeps the background fixed as the content scrolls */
 }
 .navbar {
   background-color: #2b2b2b;
@@ -29,7 +37,6 @@ body {
   list-style: none;
   margin-right: 2rem;
   gap: 2.2rem;
-
 }
 .nav-item {
   font-weight: 400;
@@ -67,13 +74,18 @@ body {
 }
 
 .hi-there {
-  font-size: 50px;
+  font-size: 54px;
   margin-bottom: 15px;
 }
 
 .intro {
-  font-size: 20px;
   margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.88;
+}
+
+.abrarfuad {
+  color: #ed3434;
 }
 
 .button-container {
@@ -92,7 +104,7 @@ body {
 }
 .profile i:hover {
   font-size: 40px;
-  background-color: #6c1f99;
+  background-color: #6a427f;
   border-color: #fff;
   padding: 10px;
   border-radius: 50%;
@@ -100,32 +112,39 @@ body {
 
 .profile.highlight i {
   font-size: 40px;
-  background-color: #6c1f99;
+  background-color: #6a427f;
   border-color: #fff;
   padding: 10px;
   border-radius: 50%;
 }
 
 .projects-label {
-  font-weight: 800;
-  margin-top: 40px;
+  margin-top: 5rem;
+  font-size: 30px;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 2.5rem;
+  border-bottom: 7px solid #504c4c; /* Adjust the thickness and color as needed */
+  display: inline-block;
+  padding-bottom: 7px;
 }
 
 .project-container {
-  flex: 1;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.8rem;
 }
 
 .project-anchor {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 .single-project {
   font-family: "Roboto Condensed", sans-serif;
   font-family: "Space Mono", monospace;
   font-size: 0.7rem;
-  background-color:#2b2b2b;
+  background-color: #2b2b2b;
   height: 500px;
   width: 350px;
   border-radius: 10px;
@@ -156,6 +175,45 @@ body {
 .single-project:hover {
   background-color: #240a2d;
   transition: 0.5s;
+}
+
+.tech-label {
+  margin-top: 5rem;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-bottom: 7px solid #504c4c; /* Adjust the thickness and color as needed */
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.single-tech {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.single-tech:hover {
+  transform: scale(1.05); /* Adjust the scale factor as needed */
+}
+
+.tech-image {
+  height: 100px;
+  width: 100px;
+}
+
+.tech-name {
+  font-size: 18px;
+  font-family: "Space Mono", monospace;
+}
+
+.tech-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 3rem;
+  gap: 2.5rem;
 }
 
 .footer {

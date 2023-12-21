@@ -3,14 +3,14 @@ import React from "react";
 export default function Header() {
   return (
     <div className="header">
-      <h1 className="hi-there">Hi there! I am Abrar Fuad</h1>
-      <p className="intro">Computer Science & Statistics | McGill University.</p>
-      <p className="intro">
-        I am passionate about building mini games and web-apps.
-      </p>
-      <p className="intro">
-      If our interests align, let's get in touch!
-      </p>
+      <h1 className="hi-there">Hi, I'm <span className="abrarfuad">Abrar Fuad</span></h1>
+      <h2 className="intro">
+        Dilligent tech enthusiast dedicated to continuous learning.
+      </h2>
+      <h2 className="intro">
+
+        Computer Science & Statistics @ McGill University
+      </h2>
     </div>
   );
 }
