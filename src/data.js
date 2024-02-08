@@ -29,11 +29,11 @@ export default [
     url: "https://github.com/abrarfuad27/SignLingo",
   },
   {
-    image: "assets/asteroids.png",
-    title: "Asteroids",
+    image: "assets/posely.png",
+    title: "Posely",
     description:
-      "The classic game Asteroids in Python. With the simplegui library used for the front-end, the game offers an intuitive graphical interface, making it accessible and enjoyable for players.",
-    url: "https://py2.codeskulptor.org/#user49_HkBGrNjZct_6.py",
+      "Your personal photography coach in your pocket. An AI-powered stickman guide that elevates poses for stunning photos with every click.",
+    url: "https://github.com/Jalil-g/Posely",
   },
   // {
   //   image: "assets/pong.png",
