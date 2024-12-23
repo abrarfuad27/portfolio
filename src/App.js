@@ -34,7 +34,8 @@ function App() {
           <div className="tech-container">{techArray}</div>
         </div>
       </div>
-      <footer className="footer">© 2023 Abrar Fuad. All rights reserved</footer>
+      <footer className="footer">© {new Date().getFullYear()} Abrar Fuad. All rights reserved</footer>
+
     </div>
   );
 }

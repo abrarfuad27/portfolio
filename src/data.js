@@ -1,5 +1,12 @@
 export default [
   {
+    image: "assets/slotify.png",
+    title: "Slotify",
+    description:
+      "A McGill School of Computer Science Booking System that seamless allows students and professors to book, create and schedule appointments. It also provides a dynamic polling feature to help professors find the best time to schedule Office Hours.",
+    url: "https://github.com/abrarfuad27/Slotify",
+  },
+  {
     image: "assets/pomo.png",
     title: "Pomodragon",
     description:
@@ -11,7 +18,7 @@ export default [
     title: "LangSonic",
     description:
       "A spoken language classifier, built on top of a Convolutional Neural Network which was trained with over 450000 audio files.",
-    url: "https://lit-mesa-88597-fe23f01307fc.herokuapp.com/",
+    url: "https://github.com/thabnir/LangSonic",
   },
   ,
   // {
