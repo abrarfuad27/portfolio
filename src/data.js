@@ -1,5 +1,12 @@
 export default [
   {
+    image: "assets/visiontex.png",
+    title: "VisionTeX",
+    description:
+      "Transform your handwritten notes into beautifully formatted LaTeX documents with ease. Our application bridges the gap between pen and publish-ready text for students, researchers and academics. ",
+    url: "https://github.com/abrarfuad27/VisionTeX",
+  },
+  {
     image: "assets/slotify.png",
     title: "Slotify",
     description:
