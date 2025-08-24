@@ -9,7 +9,7 @@ export default function Header() {
       </h2>
       <h2 className="intro">
 
-        Computer Science & Statistics @ McGill University
+        MSc. in Computer Science @ McGill University
       </h2>
     </div>
   );
